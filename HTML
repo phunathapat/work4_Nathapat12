@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="phu1.css" />
+    <title>GamersGate - Buy and download games now!</title>
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <img
+          src="https://www.gamersgate.com/static/images/logo.jpg?1668521850"
+        />
+      </div>
+    </nav>
+    <div class="searchbox">
+    <input type="search" name="query" placeholder="" autocomplete="off">
+    <input type="button" value="Search">
+</div>
+    <div class="menu">
+            <a href="https://www.gamersgate.com/games/" >Games</a>
+            <a href="https://www.gamersgate.com/top-sellers/" >Top sellers</a>
+            <a href="https://www.gamersgate.com/offers/" >Curently on sale</a>
+            <a href="https://www.gamersgate.com/new-releases/" >Newerst releases</a>
+            <a href="https://www.gamersgate.com/coming-soon//" >Coming soon</a>
+            </div>
+            <div class="container">
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  
+                  <img src="1800x400-CapcomC13-1e3948_v6AVEC8.avif" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                 
+                  <img src="1800x400-KalypsoC07-efd4cd_x9EuN8m.avif" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  
+                  <img src="1800x400-UbisoftC26-82a9c0.avif" style="width:100%">
+                  
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+                
+          </div>
+            <div class="seller">Top Seller</p></div>
+
+          <div class="shop">
+            <a href="https://www.gamersgate.com/product/resident-evil-village/" class="a"><img src="1.avif" >
+              <a href="https://www.gamersgate.com/product/monster-hunter-rise/" class="b"><img src="2.avif" >
+                <a href="https://www.gamersgate.com/product/far-cry-5/" class="c"> <img src="3.avif" >
+                  <a href="https://www.gamersgate.com/product/exoprimal/" class="d"> <img src="4.avif" >
+                    
+          </div>
+          <div class="shop2">
+            <a href="https://www.gamersgate.com/product/starfield/" class="f"><img src="5.avif" >
+              <a href="https://www.gamersgate.com/product/far-cry-6/" class="g"><img src="6.avif" >
+                <a href="https://www.gamersgate.com/product/evil-west/" class="h"> <img src="7.avif" >
+                  <a href="https://www.gamersgate.com/product/hogwarts-legacy/" class="i"> <img src="8.avif" >
+                    
+          </div>
+          <div class="more">
+            <a href="index1.html" target="_blank">homework2</a>
+          </div>
+          
+    
+  </body>
+</html>
