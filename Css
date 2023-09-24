@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #353747;
+    color: #a5a3a3;
+}
+nav{
+    display:inline-block;
+    margin: 10px;
+}
+.searchbox{
+    border: 10px;
+margin: 10px;
+display: inline;
+
+}
+.menu {
+    padding: 10px;
+    background-color: #2e303d;
+    
+    word-spacing: 20px;
+}
+.menu a{
+   
+    text-decoration:none;
+    color: #a5a5a5;
+    word-spacing: -2px;
+    letter-spacing: -2px;
+    
+    }
+    .slideshow-container {
+    
+        position: relative;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-right: 50px;
+      }
+      
+    
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+     
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+
+.seller{
+    margin-left:50px;
+}
+.shop{
+    display: inline-block ;
+    justify-content: center;
+    margin-left: 330px;
+}
+.a:hover:hover{
+    
+    filter: brightness(50%);
+}
+.b:hover:hover{
+    
+    filter: brightness(50%);
+}.c:hover:hover{
+    
+    filter: brightness(50%);
+}.d:hover:hover{
+    
+    filter: brightness(50%);
+}
+.shop2{
+    display: inline-block ;
+    justify-content: center;
+    margin-left: 330px;
+    margin-top: 10;
+}
+.f:hover:hover{
+    
+    filter: brightness(50%);
+}
+.g:hover:hover{
+    
+    filter: brightness(50%);
+}.h:hover:hover{
+    
+    filter: brightness(50%);
+}.i:hover:hover{
+    
+    filter: brightness(50%);
+}
+.more{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.more a{
+    text-decoration:none;
+    color: #ffffff;
+    background-color: #877c97;
+   
+    }
